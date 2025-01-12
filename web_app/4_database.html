@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database : OverLAB</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="./source/img/thumnail.png">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <a href="home_page.html" class="header-logo">
+                    <img src="source/img/thumnail.png" alt="CpdingNepal">
+                </a>
+                <button class="toggler sidebar-toggler">
+                    <span class="material-symbols-rounded">chevron_left</span>
+                </button>
+                <button class="toggler menu-toggler">
+                    <span class="material-symbols-rounded">menu</span>
+                </button>
+            </header>
+            <nav class="sidebar-nav">
+                <!-- Primary top nav -->
+                <ul class="nav-list primary-nav">
+                    <li class="nav-item">
+                        <a href="1_dashboard.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">dashboard</span>
+                            <span class="nav-label">Dashboard</span>
+                        </a>
+                        <span class="nav-tooltip">Dashboard</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="2_event.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">event</span>
+                            <span class="nav-label">Event</span>
+                        </a>
+                        <span class="nav-tooltip">Event</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="3_inventory.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">home_storage</span>
+                            <span class="nav-label">Inventory</span>
+                        </a>
+                        <span class="nav-tooltip">Inventory</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="4_database.html" class="nav-link" id="current">
+                            <span class="nav-icon material-symbols-rounded">database</span>
+                            <span class="nav-label">Database</span>
+                        </a>
+                        <span class="nav-tooltip">Database</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="5_store.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">local_mall</span>
+                            <span class="nav-label">Store</span>
+                        </a>
+                        <span class="nav-tooltip">Store</span>
+                    </li>
+                </ul>
+                <!-- Secondary bottom nav -->
+                <ul class="nav-list sencondary-nav">
+                    <li class="nav-item">
+                        <a href="8_profile.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">account_circle</span>
+                            <span class="nav-label">Profile</span>
+                        </a>
+                        <span class="nav-tooltip">Profile</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="9_setting.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">settings</span>
+                            <span class="nav-label">Setting</span>
+                        </a>
+                        <span class="nav-tooltip">Setting</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="0_login.html" class="nav-link" id="logout">
+                            <span class="nav-icon material-symbols-rounded">logout</span>
+                            <span class="nav-label">Logout</span>
+                        </a>
+                        <span class="nav-tooltip">Logout</span>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    
+        <main class="content">
+            <div class="header">
+                <div class="conetent-header">
+                    <span class="header-icon material-symbols-rounded">database</span>
+                    <h1 class="header-label">Database</h1>
+                </div>
+            </div>
+            <div class="main-content">
+                <section class="content-body">
+                    <section class="store" id="template">
+                        <div class="head-store">
+                            <span class="header-icon material-symbols-rounded">select_window</span>
+                            <h2>Your Overlay</h2>
+                        </div>
+                        <div class="item-scroller">
+                            <a href="#" class="media-element">
+                                <img src="source/store/1-template/1.jpg" alt="" srcset="">
+                                <p class="title">Lorem, ipsum.</p>
+                            </a>
+                            <a href="#" class="media-element">
+                                <img src="source/store/1-template/2.jpg" alt="" srcset="">
+                                <p class="title">Lorem, ipsum.</p>
+                            </a>
+                            <a href="#" class="media-element">
+                                <img src="source/store/1-template/3.jpg" alt="" srcset="">
+                                <p class="title">Lorem, ipsum.</p>
+                            </a>
+                            <a href="#" class="media-element">
+                                <img src="source/store/1-template/4.jpg" alt="" srcset="">
+                                <p class="title">Lorem, ipsum.</p>
+                            </a>
+                            <a href="#" class="media-element">
+                                <img src="source/store/1-template/5.jpg" alt="" srcset="">
+                                <p class="title">Lorem, ipsum.</p>
+                            </a>
+                            <a href="#" class="media-element">
+                                <img src="source/store/1-template/6.png" alt="" srcset="">
+                                <p class="title">Lorem, ipsum.</p>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="store" id="template">
+                        <div class="head-store">
+                            <span class="header-icon material-symbols-rounded">edit_note</span>
+                            <h2>Customize your element</h2>
+                        </div>
+                        <div class="input-container"> 
+                            <div class="input-group">
+                                <p class="team">Team left</p>
+                                <div class="input-box">
+                                    <p class="input-title">Name team</p>
+                                    <input type="text" class="team_name" placeholder="Team Left name">
+                                </div>
+                                <div class="input-box">
+                                    <p class="input-title">Pick color</p>
+                                    <input type="color" class="team_color" placeholder="Team Left color">
+                                </div>
+                                <div class="input-box">
+                                    <p class="input-title">Upload logo</p>
+                                    <input type="file" class="team_logo" placeholder="Team Left logo">
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <p class="team">Team Right</p>
+                                <div class="input-box">
+                                    <p class="input-title">Name team</p>
+                                    <input type="text" class="team_name" placeholder="Team Right name">
+                                </div>
+                                <div class="input-box">
+                                    <p class="input-title">Pick color</p>
+                                    <input type="color" class="team_color" placeholder="Team Right color">
+                                </div>
+                                <div class="input-box">
+                                    <p class="input-title">Upload logo</p>
+                                    <input type="file" class="team_logo" placeholder="Team Right logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button" id="load-more">
+                            <a href="#">
+                                <p>Save and Copy url</p>
+                            </a>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="script/sidebar.js"></script>
+</body>
+</html>

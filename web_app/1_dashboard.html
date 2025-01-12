@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard : OverLAB</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="./source/img/thumnail.png">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <a href="home_page.html" class="header-logo">
+                    <img src="source/img/thumnail.png" alt="CpdingNepal">
+                </a>
+                <button class="toggler sidebar-toggler">
+                    <span class="material-symbols-rounded">chevron_left</span>
+                </button>
+                <button class="toggler menu-toggler">
+                    <span class="material-symbols-rounded">menu</span>
+                </button>
+            </header>
+            <nav class="sidebar-nav">
+                <!-- Primary top nav -->
+                <ul class="nav-list primary-nav">
+                    <li class="nav-item current-page">
+                        <a href="1_dashboard.html" class="nav-link" id="current">
+                            <span class="nav-icon material-symbols-rounded">dashboard</span>
+                            <span class="nav-label">Dashboard</span>
+                        </a>
+                        <span class="nav-tooltip">Dashboard</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="2_event.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">event</span>
+                            <span class="nav-label">Event</span>
+                        </a>
+                        <span class="nav-tooltip">Event</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="3_inventory.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">home_storage</span>
+                            <span class="nav-label">Inventory</span>
+                        </a>
+                        <span class="nav-tooltip">Inventory</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="4_database.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">database</span>
+                            <span class="nav-label">Database</span>
+                        </a>
+                        <span class="nav-tooltip">Database</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="5_store.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">local_mall</span>
+                            <span class="nav-label">Store</span>
+                        </a>
+                        <span class="nav-tooltip">Store</span>
+                    </li>
+                </ul>
+                <!-- Secondary bottom nav -->
+                <ul class="nav-list sencondary-nav">
+                    <li class="nav-item">
+                        <a href="8_profile.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">account_circle</span>
+                            <span class="nav-label">Profile</span>
+                        </a>
+                        <span class="nav-tooltip">Profile</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="9_setting.html" class="nav-link">
+                            <span class="nav-icon material-symbols-rounded">settings</span>
+                            <span class="nav-label">Setting</span>
+                        </a>
+                        <span class="nav-tooltip">Setting</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="0_login.html" class="nav-link" id="logout">
+                            <span class="nav-icon material-symbols-rounded">logout</span>
+                            <span class="nav-label">Logout</span>
+                        </a>
+                        <span class="nav-tooltip">Logout</span>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Start Content -->
+        <main class="content">
+            <div class="header">
+                <div class="conetent-header">
+                    <span class="header-icon material-symbols-rounded">dashboard</span>
+                    <h1 class="header-label">Dashboard</h1>
+                </div>
+            </div>
+            <div class="main-content">
+                <section class="dashboard-body">
+                    <div class="layout-left">
+                        <div class="box-setup">
+                            <p class="title">Setup your stream</p>
+                            <section class="card-bar">
+                                <div class="icon">
+                                    <span class="icon-box material-symbols-rounded">download</span>
+                                </div>
+                                <div class="in-content-text">
+                                    <p class="title">Decorate your stream woth Overlab Desktop</p>
+                                    <p class="description">Our editing software is the quickest and best way to decorate overlay. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <a href="#" class="button-link">
+                                    <div class="button-box">
+                                        <p class="name">Download Desktop</p>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="card-bar">
+                                <div class="icon">
+                                    <span class="icon-box material-symbols-rounded">notifications</span>
+                                </div>
+                                <div class="in-content-text">
+                                    <p class="title">Add alerts to show engagements on your stream</p>
+                                    <p class="description">Show when someone has followed, subscribed, topped, and more. Customize Alertbox with your designs to match your overlays.</p>
+                                </div>
+                                <a href="2_event.html" class="button-link">
+                                    <div class="button-box">
+                                        <p class="name">Add alerts</p>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="card-bar">
+                                <div class="icon">
+                                    <span class="icon-box material-symbols-rounded">shopping_cart</span>
+                                </div>
+                                <div class="in-content-text">
+                                    <p class="title">Customize our stream</p>
+                                    <p class="description">Browse our library of thousands of overlays and alerts designed by the best in the industry. Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                                </div>
+                                <a href="5_store.html" class="button-link">
+                                    <div class="button-box">
+                                        <p class="name">Browse Theme</p>
+                                    </div>
+                                </a>
+                            </section>
+                        </div> 
+                        <div class="box-group-01">
+                            <div class="box-explore">
+                                <div class="text-content">
+                                    <p class="title">Explore themed overlays</p>
+                                    <p class="description">Get stunning bespoke overlays form top noych designers for a pro-level stream.</p>
+                                </div>
+                                <div class="photo-content">
+                                    <img src="source/img/finding.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="box-music">
+                                <div class="text-content">
+                                    <p class="title">Get free music for your stream!</p>
+                                    <p class="description">Free tracks and playlists to add some vibes to your stream.</p>
+                                </div>
+                                <div class="photo-content">
+                                    <img src="source/img/music.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-news">
+                            <div class="store" id="news">
+                                <div class="head-store">
+                                    <span class="header-icon material-symbols-rounded">news</span>
+                                    <h2>News update by เกมถูกบอกด้วย v.3</h2>
+                                </div>
+                                <div class="item-scroller">
+                                    <a href="https://www.facebook.com/share/p/15tJPHTWSB/" class="media-element">
+                                        <img src="source/news/07.jpg" alt="" srcset="">
+                                        <p class="title-news">Nvidia เปิดราคาวางจำหน่ายในไทยของ GeForce RTX 50 Series เริ่มต้น 5070 ราคา 21,810 บาท </p>
+                                    </a>
+                                    <a href="https://www.facebook.com/share/p/1HWH1FafLn/" class="media-element">
+                                        <img src="source/news/06.jpg" alt="" srcset="">
+                                        <p class="title-news">inZOI จะใช้ Nvidia Ace ทำให้ AI มีความคิดเป็นของตัวเอง และปรับตัวไปตามสถานการณ์เหมือนคนจริงๆ</p>
+                                    </a>
+                                    <a href="https://www.facebook.com/share/p/18a4NyoT69/" class="media-element">
+                                        <img src="source/news/05.jpg" alt="" srcset="">
+                                        <p class="title-news">AMD แถลงเปิดตัวชิปเช็ตซีรีส์ Z2  9000 และ MAX พร้อมระบุ วันวางจำหน่ายในงาน CES 2025</p>
+                                    </a>
+                                    <a href="https://www.facebook.com/share/p/15EZyUiDnw/" class="media-element">
+                                        <img src="source/news/04.jpg" alt="" srcset="">
+                                        <p class="title-news">Mark Zuckerberg ประกาศเลิกเซ็นเซอร์และปิดกั้น Facebook กับ IG โดยเน้นเสรีภาพในการคุยมากขึ้น</p>
+                                    </a>
+                                    <a href="https://www.facebook.com/share/p/15V3jD9gFN/" class="media-element">
+                                        <img src="source/news/03.jpg" alt="" srcset="">
+                                        <p class="title-news">Monster Hunter Wilds เตรียมเปิด Open Beta รอบ 2 ให้ทดลองเล่นฟรี วันที่ 7 ก.พ. นี้</p>
+                                    </a>
+                                    <a href="https://www.facebook.com/share/p/15uXEVpr4h/" class="media-element">
+                                        <img src="source/news/02.jpg" alt="" srcset="">
+                                        <p class="title-news">Transformers: Reactivate เกม Co-op 4 คน จากจักรวาล Transformers ยกเลิกพัฒนาแล้ว</p>
+                                    </a>
+                                    <a href="https://www.facebook.com/share/p/15r7bdczyb/" class="media-element">
+                                        <img src="source/news/01.jpg" alt="" srcset="">
+                                        <p class="title-news">Assassin's Creed Shadows ประกาศเลื่อนวางจำหน่ายอีกครั้ง จาก 14 ก.พ. เป็น 20 มี.ค.</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-right">
+                        <div class="box-commu">
+                            <p class="title">Level up your live streams, branding, editing, and more with Overlab Ultra</p>
+                            <p class="description">Access premium features across the full suite including Overlab Desktop, Console, Talk Studio, Podcast Editor, Cross Clip, and more, available at one, affordable price.</p>
+                            <a href="#" class="button">
+                                <div class="button-box">
+                                    <p>Read more</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box-promotion">
+                            <p class="title">Join us by sharing your work and earning with Creator Altra.</p>
+                            <p class="description">Access new content to co-design and share your work to earn money, get the latest news, join lightning talks, enter exclusive giveaways, connect with other creators, and more!</p>
+                            <a href="#" class="button">
+                                <div class="button-box">
+                                    <p>Join our Community</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box-help">
+                            <p class="title">OverLAB helping Center</p>
+                            <div class="help-cat">
+                                <a href="#" class="button-cat">
+                                    <p>Getting Started</p>
+                                </a>
+                                <a href="#" class="button-cat">
+                                    <p>Streamlabs desktop</p>
+                                </a>
+                                <a href="#" class="button-cat">
+                                    <p>Troubleshooting</p>
+                                </a>
+                                <a href="#" class="button-cat">
+                                    <p>Gaming</p>
+                                </a>
+                                <a href="#" class="button-cat">
+                                    <p>Growing your audience</p>
+                                </a>
+                                <a href="#" class="button-cat">
+                                    <p>How to make money</p>
+                                </a>
+                                <a href="#" class="button-cat">
+                                    <p>Interest Music</p>
+                                </a>
+                                <a href="#" class="button-cat">
+                                    <p>Event manager</p>
+                                </a>
+                                <a href="#" class="button-cat">
+                                    <p>How to controll overlay</p>
+                                </a>
+                            </div>
+                            <a href="#" class="button">
+                                <div class="button-box">
+                                    <p>Ask with OverBrant!</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    
+                </section>
+            </div>
+        </main>
+        <!-- End Content -->
+
+    </div>
+    <script src="script/sidebar.js"></script>
+</body>
+</html>

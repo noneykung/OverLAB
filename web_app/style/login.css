@@ -1,0 +1,91 @@
+html {
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./source/img/background.png'); /* Replace with your background image */
+    background-size: auto;
+    background-position: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    margin: 120px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border: rgba(255, 255, 255, 0.2) solid 2px;
+    border-radius: 32px;
+    text-align: center;
+    width: 320px;
+    height: 620px;
+    transition: margin-left 0.2s ease;
+}
+
+.logo {
+    width: 240px;
+    margin: 0 auto 10px;
+}
+.brand-name {
+    font-family: "Chakra Petch", serif;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.form-input {
+    width: 280px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 10px;
+}
+.form-checkbox input {
+    margin-right: 10px;
+}
+
+.login-button {
+    width: 280px;
+    padding: 10px;
+    background-color: #ae00ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s ease;
+}
+.rem_check{
+    color:white;
+}
+.login-button:hover {
+    background-color: #3aa044;
+    color: #fff;
+}
+.signup-button {
+    width: 280px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #ae00ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s ease;
+}
+.signup-button:hover {
+    background-color: #ffa04e;
+    color: #fff;
+    
+}
